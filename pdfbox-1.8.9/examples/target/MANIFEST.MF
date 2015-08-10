@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache PDFBox examples
+Implementation-Version: 1.8.9
+Implementation-Vendor-Id: org.apache.pdfbox
+Build-Jdk: 1.7.0_79
+Built-By: wind
+Specification-Title: Apache PDFBox examples
+Created-By: IntelliJ IDEA
+Specification-Version: 1.8.9
+

@@ -1,0 +1,97 @@
+Release Notes -- Apache PDFBox -- Version 1.8.9
+
+Introduction
+------------
+
+The Apache PDFBox library is an open source Java tool for working with PDF documents.
+
+This is an incremental bugfix release based on the earlier 1.8.8 release. It 
+contains a couple of fixes and small improvements.
+
+For more details on all fixes included in this release, please refer to the following
+issues on the PDFBox issue tracker at https://issues.apache.org/jira/browse/PDFBOX.
+
+Bug
+
+[PDFBOX-159] - Field renaming character set problem
+[PDFBOX-785] - Spliting a PDF creates unnecessarily large files
+[PDFBOX-1002] - Form field not rendered after being processed by pdfbox-1.1.0, wrong
+ position of same field in pdfbox-1.5.0
+[PDFBOX-1618] - Split PDF file to single page files, some files are inflated in size
+[PDFBOX-1651] - PDFBox doesn't read the permission bits correct. 
+ PDDocument.getCurrentAccessPermission().canPrint() is allways returning true 
+ irrespective of the document print permissions
+[PDFBOX-1750] - PDTextbox and PDAnnotationWidget are not correct initialized from
+ it's own constructor .
+[PDFBOX-1859] - ClassCastException for unknown destination type
+[PDFBOX-1874] - PDFTextStripper.isParagraphSeparation(...)
+[PDFBOX-1965] - NPE in NonSequentialPDFParser when parseMinimal property is set to true
+[PDFBOX-2525] - Overlay: data black & white after import
+[PDFBOX-2549] - TIFF-Predictor with 16 bits per component not supported
+[PDFBOX-2550] - ClassCastException in PDAnnotation.getColour
+[PDFBOX-2552] - Blank rendering when negative page rotation
+[PDFBOX-2559] - TTF font cannot be loaded
+[PDFBOX-2579] - Exception in thread "main" java.io.IOException: Error: Expected a long
+ type at offset 1029, instead got '12688(Deleted'
+[PDFBOX-2582] - Form fields missing entirely or incorrect in PDField list
+[PDFBOX-2583] - Error when rendering a PDF with annotations
+[PDFBOX-2595] - Pdfbox always sets the second part of documentID to the same value
+[PDFBOX-2615] - IllegalArgumentException in PDPageTree constructor: root cannot be null
+[PDFBOX-2617] - Group of Button fields treated as a Radio Button group
+[PDFBOX-2620] - Support named actions
+[PDFBOX-2622] - PDAnnotationLink::getBorderStyle() don't understand external border style
+[PDFBOX-2644] - Load FDF document creates Temp file when called with file parameter
+[PDFBOX-2653] - Image extraction fails with attached PDF
+[PDFBOX-2654] - NullPointerException when reading a GIF file with a transparent color
+[PDFBOX-2676] - PDPageLabelRange.setLabelItem() should not allow negative startPage
+[PDFBOX-2678] - possible NPE in ExtractText tool of trunk
+[PDFBOX-2687] - ClassCastException when trying to get OutputIntents or add to it
+[PDFBOX-2698] - PDFToImage IndexOutOfBoundsException
+[PDFBOX-2702] - Merging PDFs created using "Nuance PDF Create" not possible
+[PDFBOX-2710] - Form fields missing in 1.8.9 version
+[PDFBOX-2726] - org.apache.pdfbox.cos.COSArray cannot be cast to 
+ org.apache.pdfbox.cos.COSDictionary
+
+Improvement
+
+[PDFBOX-1523] - Manifest should support Specification entries
+[PDFBOX-2594] - Set default params in JBIG2Filter
+[PDFBOX-2619] - XMP dates contain time zone, while document info dates do not, 
+ and this isn't detected by preflight
+[PDFBOX-2673] - Add output path prefix param in PDFSplit/Splitter
+
+
+Release Contents
+----------------
+
+This release consists of a single source archive packaged as a zip file.
+The archive can be unpacked with the jar tool from your JDK installation.
+See the README.txt file for instructions on how to build this release.
+
+The source archive is accompanied by SHA1 and MD5 checksums and a PGP
+signature that you can use to verify the authenticity of your download.
+The public key used for the PGP signature can be found at
+https://svn.apache.org/repos/asf/pdfbox/KEYS.
+
+About Apache PDFBox
+-------------------
+
+Apache PDFBox is an open source Java library for working with PDF documents.
+This project allows creation of new PDF documents, manipulation of existing
+documents and the ability to extract content from documents. Apache PDFBox
+also includes several command line utilities. Apache PDFBox is published
+under the Apache License, Version 2.0.
+
+For more information, visit http://pdfbox.apache.org/
+
+About The Apache Software Foundation
+------------------------------------
+
+Established in 1999, The Apache Software Foundation provides organizational,
+legal, and financial support for more than 100 freely-available,
+collaboratively-developed Open Source projects. The pragmatic Apache License
+enables individual and commercial users to easily deploy Apache software;
+the Foundation's intellectual property framework limits the legal exposure
+of its 2,500+ contributors.
+
+For more information, visit http://www.apache.org/
